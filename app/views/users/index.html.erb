@@ -1,0 +1,8 @@
+<div class="container">
+    <h1 class="title-lg mt" > All Users</h1>
+    <% @users.each do |user| %>
+        <p class="mt-sm"><%= link_to "The user with #{user.id} id", user_path(user) %></p>
+        <br>
+    <% end %>
+    <p class="mt-sm" ><%= link_to "Add new user", new_user_path, class: "button-submit" %></p>
+</div>

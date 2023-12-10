@@ -1,0 +1,18 @@
+.form-text-area{
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.form-text-area,
+.form-text-field{
+    border-radius: 7px;
+    border: 1px solid wheat;
+    padding: 7.5px 10px;
+}
+
+.form-text-area:focus,
+.form-text-field:focus{
+    background-color: whitesmoke;
+    outline-width: 0;
+}
+

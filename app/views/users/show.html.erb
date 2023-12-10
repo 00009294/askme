@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 class="title-lg" >User: </h1>
+    <% @user %>
+    <p class="mt-sm">The Id is <%= @user.id %> </p>
+    <p class="mt-sm">The User Id is <%= @user.user_id %></p>
+    <p class="mt-sm">The body is <%= @user.body %> </p>
+    <%= button_to 'Edit', edit_user_path(@user), method: :get, class: "button-edit mt-sm"%>
+    <%= button_to "Main", users_path, method: :get, class: "button-main mt-sm" %>
+    <%= button_to "Remove", user_path(@user), method: :delete, class: "button mt-sm" %>
+</div>

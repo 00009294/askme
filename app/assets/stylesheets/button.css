@@ -1,0 +1,51 @@
+.button{
+    border: 1px solid;
+    border-radius: 3px;
+    color:aliceblue;
+    background-color: firebrick;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.button-main{
+    border: 1px solid;
+    border-radius: 3px;
+    color:aliceblue;
+    background-color: rgb(41, 34, 178);
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.button-submit{
+    border: 1px solid;
+    border-radius: 5px;
+    color:aliceblue;
+    background-color: rgb(58, 178, 34);
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.button-edit{
+    border: 1px solid;
+    border-radius: 5px;
+    color:black;
+    background-color: rgb(193, 242, 0);
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+}

@@ -1,0 +1,8 @@
+<%= form_with model: @user do |form| %>
+    <p class="mt-sm"><%= form.label :body, 'Create' %></p>
+    <p><%= form.text_area :body, rows:5, class:"form-text-area" %></p>
+    <p class="mt-sm"><%= form.label :user_id %></p>
+    <p><%= form.text_field :user_id, type:'number', class:"form-text-field" %></p>
+    <p class="mt-sm mt-sm"><%= form.submit 'Submit', class: "button-submit" %></p>
+    <%= button_to "Main", "/users", method: :get, class: "button-main mt-sm" %>
+    <% end %>
